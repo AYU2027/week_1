@@ -99,3 +99,46 @@ body {
     display: flex;
   }
 }
+
+
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin-top: 60px; 
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    letter-spacing: -1px;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: lightblue;
+    margin-bottom: 2.5rem;
+}
+
+
+.cta-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: #ffffff;
+    padding: 0.8rem 2rem;
+    border-radius: 6px;
+    font-weight: 600;
+    
+}
+
